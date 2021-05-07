@@ -1,5 +1,11 @@
-A simple command-line application.
+# Plaipher crypt algorithm
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
-# plaipher-dart
+
+# Using 
+
+```
+dart run ./bin/main.dart --data [data to encript] --key [encription key] --except [char] --filler [char] --verbose {default = false}
+```
+
+* Note: data must not contain filler & except character
+
